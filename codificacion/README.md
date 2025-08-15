@@ -1,28 +1,28 @@
-\# 📚 Sistema Biblioteca Virtual
+# 📚 Sistema Biblioteca Virtual
 
 
 
-Un sistema de gestión de biblioteca desarrollado en Java que permite realizar préstamos y devoluciones de libros utilizando el patrón arquitectónico \*\*Modelo-Vista-Controlador (MVC)\*\* y principios de \*\*Programación Orientada a Objetos\*\*.
+Un sistema de gestión de biblioteca desarrollado en Java que permite realizar préstamos y devoluciones de libros utilizando el patrón arquitectónico **Modelo-Vista-Controlador (MVC)** y principios de **Programación Orientada a Objetos**.
 
 
 
-\## 🏗️ Arquitectura del Sistema
+## 🏗️ Arquitectura del Sistema
 
 
 
-El proyecto sigue el patrón \*\*MVC\*\* para una mejor separación de responsabilidades:
+El proyecto sigue el patrón **MVC** para una mejor separación de responsabilidades:
 
 
 
-\- \*\*Modelo (Model)\*\*: Contiene las entidades y la lógica de negocio
+- **Modelo (Model)**: Contiene las entidades y la lógica de negocio
 
-\- \*\*Vista (View)\*\*: Maneja la interfaz de usuario y la interacción
+- **Vista (View)**: Maneja la interfaz de usuario y la interacción
 
-\- \*\*Controlador (Controller)\*\*: Coordina entre el modelo y la vista
+- **Controlador (Controller)**: Coordina entre el modelo y la vista
 
 
 
-\## 📁 Estructura del Proyecto
+## 📁 Estructura del Proyecto
 
 
 
@@ -52,63 +52,63 @@ src/
 
 
 
-\## 🎯 Funcionalidades
+## 🎯 Funcionalidades
 
 
 
-\### ✅ Características Principales
+### ✅ Características Principales
 
 
 
-\- \*\*Autenticación de usuario\*\* con sistema de intentos limitados
+- **Autenticación de usuario** con sistema de intentos limitados
 
-\- \*\*Gestión de préstamos\*\* de libros por categorías
+- **Gestión de préstamos** de libros por categorías
 
-\- \*\*Gestión de devoluciones\*\* con validación
+- **Gestión de devoluciones** con validación
 
-\- \*\*Consulta de préstamos activos\*\*
+- **Consulta de préstamos activos**
 
-\- \*\*Consulta de libros disponibles\*\* por categoría
+- **Consulta de libros disponibles** por categoría
 
-\- \*\*Organización por categorías\*\*: Ciencia ficción, Juveniles, Infantiles
-
-
-
-\### 📖 Catálogo de Libros
+- **Organización por categorías**: Ciencia ficción, Juveniles, Infantiles
 
 
 
-\#### 🚀 Ciencia Ficción
-
-\- Dune
-
-\- Neuromante
-
-\- Fundación
+### 📖 Catálogo de Libros
 
 
 
-\#### 👥 Juveniles
+#### 🚀 Ciencia Ficción
 
-\- Bajo la misma estrella
+- Dune
 
-\- El corredor del laberinto
+- Neuromante
 
-\- Divergente
-
-
-
-\#### 🧸 Infantiles
-
-\- El principito
-
-\- Donde viven los monstruos
-
-\- Harry Potter y la piedra filosofal
+- Fundación
 
 
 
-\## 🔐 Credenciales de Acceso
+#### 👥 Juveniles
+
+- Bajo la misma estrella
+
+- El corredor del laberinto
+
+- Divergente
+
+
+
+#### 🧸 Infantiles
+
+- El principito
+
+- Donde viven los monstruos
+
+- Harry Potter y la piedra filosofal
+
+
+
+## 🔐 Credenciales de Acceso
 
 
 
@@ -116,67 +116,66 @@ Para acceder al sistema utiliza las siguientes credenciales:
 
 
 
-\- \*\*Usuario\*\*: `Andrea.Benitez`
+- **Usuario**: `Andrea.Benitez`
 
-\- \*\*Contraseña\*\*: `1234`
-
-
-
-> ⚠️ \*\*Nota\*\*: El sistema permite máximo 3 intentos de inicio de sesión.
+- **Contraseña**: `1234`
 
 
 
-\## 🚀 Instalación y Ejecución
+> ⚠️ **Nota**: El sistema permite máximo 3 intentos de inicio de sesión.
 
 
 
-\### Requisitos Previos
+## 🚀 Instalación y Ejecución
 
 
 
-\- Java JDK 8 o superior
-
-\- Un IDE de Java (IntelliJ IDEA, Eclipse, VS Code, etc.) o compilador de línea de comandos
+### Requisitos Previos
 
 
 
-\### Pasos para ejecutar
+- Java JDK 8 o superior
+
+- Un IDE de Java (IntelliJ IDEA, Eclipse, VS Code, etc.) o compilador de línea de comandos
 
 
 
-1\. \*\*Clonar o descargar\*\* el proyecto
-
-2\. \*\*Compilar\*\* todos los archivos Java:
-
-&nbsp;  ```bash
-
-&nbsp;  javac -d out src/model/\*.java src/vista/\*.java src/controlador/\*.java src/App.java
-
-&nbsp;  ```
-
-3\. \*\*Ejecutar\*\* la aplicación:
-
-&nbsp;  ```bash
-
-&nbsp;  java -cp out App
-
-&nbsp;  ```
+### Pasos para ejecutar
 
 
 
-\### Ejecución desde IDE
+1. **Clonar o descargar** el proyecto
+
+2. **Compilar** todos los archivos Java:
+
+```bash
+
+  javac -d out src/model/*.java src/vista/*.java src/controlador/*.java src/App.java
+
+  ```
+
+3. **Ejecutar** la aplicación:
+
+  ```bash
+
+  java -cp out App
+ ```
 
 
 
-1\. Importar el proyecto en tu IDE favorito
-
-2\. Asegurarte de que la estructura de carpetas sea correcta
-
-3\. Ejecutar la clase `App.java`
+### Ejecución desde IDE
 
 
 
-\## 📋 Menú Principal
+1. Importar el proyecto en tu IDE favorito
+
+2. Asegurarte de que la estructura de carpetas sea correcta
+
+3. Ejecutar la clase `App.java`
+
+
+
+## 📋 Menú Principal
 
 
 
@@ -186,33 +185,33 @@ Una vez autenticado, el sistema presenta las siguientes opciones:
 
 ```
 
-1\. Realizar un préstamo de libro
+1. Realizar un préstamo de libro
 
-2\. Realizar una devolución de libro  
+2. Realizar una devolución de libro  
 
-3\. Consultar préstamos activos
+3. Consultar préstamos activos
 
-4\. Consultar libros disponibles
+4. Consultar libros disponibles
 
-5\. Salir
+5. Salir
 
 ```
 
 
 
-\## 🔧 Detalles Técnicos
+## 🔧 Detalles Técnicos
 
 
 
-\### Clases Principales
+### Clases Principales
 
 
 
-\#### 📦 Modelo (model/)
+#### 📦 Modelo (model/)
 
 
 
-\- \*\*`Book.java`\*\*: 
+- **`Book.java`**: 
 
 &nbsp; - Representa un libro con título, categoría y estado de préstamo
 
@@ -220,7 +219,7 @@ Una vez autenticado, el sistema presenta las siguientes opciones:
 
 
 
-\- \*\*`User.java`\*\*:
+- **`User.java`**:
 
 &nbsp; - Maneja las credenciales del usuario
 
@@ -228,7 +227,7 @@ Una vez autenticado, el sistema presenta las siguientes opciones:
 
 
 
-\- \*\*`BibliotecaService.java`\*\*:
+- **`BibliotecaService.java`**:
 
 &nbsp; - Contiene toda la lógica de negocio
 
@@ -236,11 +235,11 @@ Una vez autenticado, el sistema presenta las siguientes opciones:
 
 
 
-\#### 👁️ Vista (vista/)
+#### 👁️ Vista (vista/)
 
 
 
-\- \*\*`BibliotecaView.java`\*\*:
+- **`BibliotecaView.java`**:
 
 &nbsp; - Maneja toda la interacción con el usuario
 
@@ -248,11 +247,11 @@ Una vez autenticado, el sistema presenta las siguientes opciones:
 
 
 
-\#### 🎮 Controlador (controlador/)
+#### 🎮 Controlador (controlador/)
 
 
 
-\- \*\*`BibliotecaController.java`\*\*:
+- **`BibliotecaController.java`**:
 
 &nbsp; - Coordina entre modelo y vista
 
@@ -262,115 +261,115 @@ Una vez autenticado, el sistema presenta las siguientes opciones:
 
 
 
-\## 🎮 Guía de Uso
+## 🎮 Guía de Uso
 
 
 
-\### 1. Inicio de Sesión
+### 1. Inicio de Sesión
 
-\- Ejecutar la aplicación
+- Ejecutar la aplicación
 
-\- Ingresar credenciales válidas
+- Ingresar credenciales válidas
 
-\- Máximo 3 intentos permitidos
+- Máximo 3 intentos permitidos
 
 
 
-\### 2. Realizar Préstamo
+### 2. Realizar Préstamo
 
-\- Seleccionar opción 1 del menú principal
+- Seleccionar opción 1 del menú principal
 
-\- Elegir categoría de libro
+- Elegir categoría de libro
 
-\- Seleccionar libro específico
+- Seleccionar libro específico
 
-\- El sistema validará disponibilidad
+- El sistema validará disponibilidad
 
 
 
-\### 3. Realizar Devolución
+### 3. Realizar Devolución
 
-\- Seleccionar opción 2 del menú principal
+- Seleccionar opción 2 del menú principal
 
-\- Elegir categoría del libro a devolver
+- Elegir categoría del libro a devolver
 
-\- Seleccionar libro específico
+- Seleccionar libro específico
 
-\- El sistema validará que el libro esté prestado
+- El sistema validará que el libro esté prestado
 
 
 
-\### 4. Consultar Préstamos Activos
+### 4. Consultar Préstamos Activos
 
-\- Seleccionar opción 3
+- Seleccionar opción 3
 
-\- Ver lista de todos los libros prestados actualmente
+- Ver lista de todos los libros prestados actualmente
 
 
 
-\### 5. Consultar Libros Disponibles
+### 5. Consultar Libros Disponibles
 
-\- Seleccionar opción 4
+- Seleccionar opción 4
 
-\- Elegir categoría
+- Elegir categoría
 
-\- Ver disponibilidad de libros en esa categoría
+- Ver disponibilidad de libros en esa categoría
 
 
 
-\## ✨ Características del Diseño
+## ✨ Características del Diseño
 
 
 
-\### Principios de POO Aplicados
+### Principios de POO Aplicados
 
 
 
-\- \*\*Encapsulación\*\*: Atributos privados con métodos de acceso
+- **Encapsulación**: Atributos privados con métodos de acceso
 
-\- \*\*Abstracción\*\*: Separación clara de responsabilidades
+- **Abstracción**: Separación clara de responsabilidades
 
-\- \*\*Modularidad\*\*: Clases especializadas para cada función
+- **Modularidad**: Clases especializadas para cada función
 
 
 
-\### Ventajas del Patrón MVC
+### Ventajas del Patrón MVC
 
 
 
-\- \*\*Mantenibilidad\*\*: Fácil modificar cualquier capa sin afectar las otras
+- **Mantenibilidad**: Fácil modificar cualquier capa sin afectar las otras
 
-\- \*\*Escalabilidad\*\*: Simple agregar nuevas funcionalidades
+- **Escalabilidad**: Simple agregar nuevas funcionalidades
 
-\- \*\*Reutilización\*\*: Componentes reutilizables
+- **Reutilización**: Componentes reutilizables
 
-\- \*\*Testeo\*\*: Cada capa puede ser probada independientemente
+- **Testeo**: Cada capa puede ser probada independientemente
 
 
 
-\## 🔄 Posibles Mejoras Futuras
+## 🔄 Posibles Mejoras Futuras
 
 
 
-\- \[ ] Persistencia de datos en base de datos
+- [ ] Persistencia de datos en base de datos
 
-\- \[ ] Múltiples usuarios simultáneos
+- [ ] Múltiples usuarios simultáneos
 
-\- \[ ] Sistema de reservas
+- [ ] Sistema de reservas
 
-\- \[ ] Fechas de préstamo y devolución
+- [ ] Fechas de préstamo y devolución
 
-\- \[ ] Multas por retraso
+- [ ] Multas por retraso
 
-\- \[ ] Interfaz gráfica (GUI)
+- [ ] Interfaz gráfica (GUI)
 
-\- \[ ] Sistema de búsqueda avanzada
+- [ ] Sistema de búsqueda avanzada
 
-\- \[ ] Reportes y estadísticas
+- [ ] Reportes y estadísticas
 
 
 
-\## 👨‍💻 Desarrollo
+## 👨‍💻 Desarrollo
 
 
 
@@ -378,13 +377,13 @@ Este proyecto fue desarrollado como una demostración de:
 
 
 
-\- Conversión de código funcional a orientado a objetos
+- Conversión de código funcional a orientado a objetos
 
-\- Implementación del patrón arquitectónico MVC
+- Implementación del patrón arquitectónico MVC
 
-\- Aplicación de principios de diseño de software
+- Aplicación de principios de diseño de software
 
-\- Buenas prácticas de programación en Java
+- Buenas prácticas de programación en Java
 
 
 
