@@ -150,7 +150,7 @@ Para acceder al sistema utiliza las siguientes credenciales:
 
 ```bash
 
-  javac -d out src/model/*.java src/vista/*.java src/controlador/*.java src/App.java
+  javac -d out src/model/*.java src/view/*.java src/controller/*.java src/App.java
 
   ```
 
